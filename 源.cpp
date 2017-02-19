@@ -41,8 +41,8 @@ void update(int x, int y)
 }
 int main()
 {
-//	while (scanf_s("%d %d",&r,&c)!=EOF)
-//	{
+	while (scanf_s("%d %d",&r,&c)!=EOF)
+	{
 		info read;
 		v.clear();
 		for (int i = 1; i <= r; i++)
@@ -74,6 +74,6 @@ int main()
 					result = ans[i][j];
 			}
 		cout << result << endl;
-//	}	
+	}	
 	return 0;
 }
